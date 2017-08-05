@@ -2,12 +2,12 @@
 <search>
   <entry>
     <title><![CDATA[photo]]></title>
-    <url>%2Fphoto%2F</url>
+    <url>%2Fphoto.html</url>
     <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
     <title><![CDATA[金庸小说中的诗词]]></title>
-    <url>%2Fjingyong%2F</url>
+    <url>%2Fjingyong.html</url>
     <content type="text"><![CDATA[《天龙八部》《天龙八部》的回目成五首词，具体如下：少年游·金庸 青衫磊落险峰行，玉璧月华明。马疾香幽，崖高人远，微步毂纹生。 谁家子弟谁家院，无悔计多情。虎啸龙吟，换巢鸾凤，剑气碧烟横。 苏幕遮·金庸 向来痴，从此醉。水榭听香，指点群豪戏。剧饮千杯男儿事。杏子林中，商略平生义。 昔时因，今日意。胡汉恩仇，须倾英雄泪。虽万千人吾往矣，悄立雁门，绝壁无余字。 破阵子·金庸 千里茫茫若梦，双眸粲粲如星。塞上牛羊 空许约，烛畔鬓云有旧盟。莽苍踏雪行。 赤手屠龙搏虎，金戈荡寇鏖兵。草木残生颅铸铁，虫豸凝寒掌作冰。挥洒缚豪英。 洞仙歌·金庸 输赢成败，又争由人算。且自逍遥没人管。奈天昏地暗，斗转星移。 风骤紧，缥缈风头云乱。红颜弹指老，刹那芳华。梦里真真语真幻. 同一笑，到头万事俱空。胡涂醉，情长计短。 解不了，名疆系嗔贪。却试问：几时把痴心断？ 水龙吟·金庸 燕云十八飞骑，奔腾如虎风烟举。老魔小丑，岂堪一击，胜之不武。 王霸雄图，血海深仇，尽归尘土。念枉求美眷，良缘安在，枯井底，暗泥处。 酒罢问君三语，为谁开茶花满路。王孙落魄，怎生消得，杨枝玉露？ 敝屣荣华，浮云生死，此身何惧？教单于折剪，六军辟易，愤英雄怒！ 段誉所吟“波渺渺，柳依依，孤村芳颤远，斜日杏花飞”。 出处：《江南春》【宋】寇准 波渺渺，柳依依，孤村芳颤远，斜日杏花飞。江南春尽离肠远，蘋满汀洲人未归。]]></content>
       <categories>
         <category>阅读</category>
@@ -19,7 +19,7 @@
   </entry>
   <entry>
     <title><![CDATA[测试用例]]></title>
-    <url>%2FTest%2F</url>
+    <url>%2FTest.html</url>
     <content type="text"><![CDATA[今天很开心！]]></content>
       <categories>
         <category>技术</category>
@@ -30,7 +30,7 @@
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <url>%2Fhello-world%2F</url>
+    <url>%2Fhello-world.html</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment Clean and Run1234$ npm install hexo-deployer-git --save$ hexo clean$ hexo generate$ hexo deploy Debug1$ hexo server --debug Insert image1![你想输入的替代文字](xxxx/图片名.jpg) 注意：xxxx是这个md文件的名字，也是同名文件夹的名字，你想引入的图片就只需要放入xxxx这个文件夹内就好了，很像引用相对路径。]]></content>
   </entry>
 </search>
