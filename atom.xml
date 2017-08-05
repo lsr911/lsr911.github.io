@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="www.lsr911.top/"/>
+  <link href="https://lsr911.top/"/>
   <updated>2017-07-22T10:25:34.048Z</updated>
-  <id>www.lsr911.top/</id>
+  <id>https://lsr911.top/</id>
   
   <author>
     <name>lsr</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>photo</title>
-    <link href="www.lsr911.top/2017/07/22/photo/"/>
-    <id>www.lsr911.top/2017/07/22/photo/</id>
+    <link href="https://lsr911.top/photo/"/>
+    <id>https://lsr911.top/photo/</id>
     <published>2017-07-22T09:52:42.000Z</published>
     <updated>2017-07-22T10:25:34.048Z</updated>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>金庸小说中的诗词</title>
-    <link href="www.lsr911.top/2017/07/16/jingyong/"/>
-    <id>www.lsr911.top/2017/07/16/jingyong/</id>
+    <link href="https://lsr911.top/jingyong/"/>
+    <id>https://lsr911.top/jingyong/</id>
     <published>2017-07-16T07:18:53.000Z</published>
     <updated>2017-08-03T17:20:54.098Z</updated>
     
@@ -85,19 +85,19 @@
     
     </summary>
     
-      <category term="阅读" scheme="www.lsr911.top/categories/read/"/>
+      <category term="阅读" scheme="https://lsr911.top/categories/read/"/>
     
     
-      <category term="武侠" scheme="www.lsr911.top/tags/wuxia/"/>
+      <category term="武侠" scheme="https://lsr911.top/tags/wuxia/"/>
     
-      <category term="文艺" scheme="www.lsr911.top/tags/literature/"/>
+      <category term="文艺" scheme="https://lsr911.top/tags/literature/"/>
     
   </entry>
   
   <entry>
     <title>测试用例</title>
-    <link href="www.lsr911.top/2017/07/16/Test/"/>
-    <id>www.lsr911.top/2017/07/16/Test/</id>
+    <link href="https://lsr911.top/Test/"/>
+    <id>https://lsr911.top/Test/</id>
     <published>2017-07-16T03:33:38.000Z</published>
     <updated>2017-07-16T07:24:45.494Z</updated>
     
@@ -111,17 +111,17 @@
     
     </summary>
     
-      <category term="技术" scheme="www.lsr911.top/categories/techology/"/>
+      <category term="技术" scheme="https://lsr911.top/categories/techology/"/>
     
     
-      <category term="WEB" scheme="www.lsr911.top/tags/web/"/>
+      <category term="WEB" scheme="https://lsr911.top/tags/web/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="www.lsr911.top/2017/07/15/hello-world/"/>
-    <id>www.lsr911.top/2017/07/15/hello-world/</id>
+    <link href="https://lsr911.top/hello-world/"/>
+    <id>https://lsr911.top/hello-world/</id>
     <published>2017-07-15T14:08:15.699Z</published>
     <updated>2017-07-20T08:28:20.155Z</updated>
     
