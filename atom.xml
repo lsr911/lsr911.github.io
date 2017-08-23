@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lsr911.top/"/>
-  <updated>2017-07-22T10:25:34.048Z</updated>
+  <updated>2017-08-23T08:45:05.791Z</updated>
   <id>https://lsr911.top/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Myeclipse的快捷键使用</title>
+    <link href="https://lsr911.top/eclipse%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE.html"/>
+    <id>https://lsr911.top/eclipse的快捷键.html</id>
+    <published>2017-08-23T08:33:18.000Z</published>
+    <updated>2017-08-23T08:45:05.791Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Myeclipse多行注释快捷键及其他快捷键"><a href="#Myeclipse多行注释快捷键及其他快捷键" class="headerlink" title="Myeclipse多行注释快捷键及其他快捷键"></a>Myeclipse多行注释快捷键及其他快捷键</h3><h4 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Ctrl+Shift+/  //多行注释</div><div class="line">Alt+Shift+J   //模板注释</div></pre></td></tr></table></figure>
+<h4 id="格式化"><a href="#格式化" class="headerlink" title="格式化"></a>格式化</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Ctrl+Shift+F  //格式化文件Format Document。</div></pre></td></tr></table></figure>
+<h4 id="编辑，查找"><a href="#编辑，查找" class="headerlink" title="编辑，查找"></a>编辑，查找</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">Ctrl+D	//删除当前行。</div><div class="line">Ctrl+1 	//快速修复(最经典的快捷键,就不用多说了)</div><div class="line">Ctrl+Alt+↓ 	//复制当前行到下一行(复制增加)</div><div class="line">Ctrl+Alt+↑ 	//复制当前行到上一行(复制增加)</div><div class="line">Alt+↓ 	//当前行和下面一行交互位置(特别实用,可以省去先剪切,再粘贴了)</div><div class="line">Alt+↑ 	//当前行和上面一行交互位置(同上)</div><div class="line">Ctrl+L 	//定位在某行 (对于程序超过100的人就有福音了)</div><div class="line">Ctrl+T 	//快速显示当前类的继承结构</div><div class="line">Ctrl+J 	//正向增量查找(按下Ctrl+J后,你所输入的每个字母编辑器都提供快速匹配定位到某个单词,如果没有,则在stutes line中显示没有)</div><div class="line">Ctrl+Shift+J 	//反向增量查找(和上条相同,只不过是从后往前查)</div><div class="line">Alt+Shift+R 	//重命名 (是我自己最爱用的一个了,尤其是变量和类的Rename,比手工方法能节省很多劳动力)</div><div class="line">Alt+Shift+M 	//抽取方法 (这是重构里面最常用的方法之一了,尤其是对一大堆泥团代码有用)</div><div class="line">Ctrl+F 	//用于查找你Editer中你想查找的变量，并可以修改名字。</div><div class="line">ctrl+<span class="built_in">shift</span>+O	//自动导入所有未导入的包</div><div class="line">ctrl+<span class="built_in">shift</span>+M	//一个类一个类的导入,action 点中dao(service)的方法再 CTRL+T可以直接到实现类 而不是接口</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Myeclipse多行注释快捷键及其他快捷键&quot;&gt;&lt;a href=&quot;#Myeclipse多行注释快捷键及其他快捷键&quot; class=&quot;headerlink&quot; title=&quot;Myeclipse多行注释快捷键及其他快捷键&quot;&gt;&lt;/a&gt;Myeclipse多行注释快捷键及其他快
+    
+    </summary>
+    
+      <category term="技术" scheme="https://lsr911.top/categories/techology/"/>
+    
+    
+      <category term="JAVA" scheme="https://lsr911.top/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>photo</title>
