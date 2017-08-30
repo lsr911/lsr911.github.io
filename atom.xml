@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>平沙荡雁</title>
-  
+  <subtitle>心中若有桃花源，何处不是水云间</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lsr911.top/"/>
@@ -10,7 +10,7 @@
   
   <author>
     <name>lsr</name>
-    
+    <email>lsr@love999.top</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
