@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lsr911.top/"/>
-  <updated>2017-08-23T08:45:05.791Z</updated>
+  <updated>2017-11-14T03:25:08.755Z</updated>
   <id>https://lsr911.top/</id>
   
   <author>
@@ -14,6 +14,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>lucene排序问题</title>
+    <link href="https://lsr911.top/lucene%E6%8E%92%E5%BA%8F%E9%97%AE%E9%A2%98.html"/>
+    <id>https://lsr911.top/lucene排序问题.html</id>
+    <published>2017-11-14T02:56:02.000Z</published>
+    <updated>2017-11-14T03:25:08.755Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="lucene排序filed"><a href="#lucene排序filed" class="headerlink" title="lucene排序filed"></a>lucene排序filed</h2><pre><code>private SortBean getXkSortBean() {
+    SortBean sortBean = new SortBean();
+    sortBean.setSort(true);
+    sortBean.setSortName(&quot;XKSXQ&quot; + AddDateDoc.SORT_PARAM);
+    sortBean.setAscending(true);
+    sortBean.setSortType(SortField.Type.LONG);
+    return sortBean;
+}
+</code></pre><blockquote>
+<p>AddDateDoc</p>
+</blockquote>
+<pre><code>public class AddDateDoc implements AddDocIntf {
+@Override
+public Document addDoc(String field, Object obj, Document doc) {
+    if(StringUtils.equalsIgnoreCase(field.toUpperCase(), &quot;XKSXQ&quot;) || StringUtils.equalsIgnoreCase(field.toUpperCase(), &quot;CFSXQ&quot;)) {
+        doc.add(new NumericDocValuesField(field.toUpperCase() + SORT_PARAM, ((Date)obj).getTime()));
+    }
+    doc.add(new LongField(field.toUpperCase(), ((Date)obj).getTime(), Field.Store.YES));
+    return doc;
+}}
+</code></pre><blockquote>
+<p>其中 NumericDocValuesField 适合long类型排序，SortedDocValuesField为String类型排序，可以自定义组合排序构造方法。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;lucene排序filed&quot;&gt;&lt;a href=&quot;#lucene排序filed&quot; class=&quot;headerlink&quot; title=&quot;lucene排序filed&quot;&gt;&lt;/a&gt;lucene排序filed&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;private SortBean g
+    
+    </summary>
+    
+      <category term="技术" scheme="https://lsr911.top/categories/techology/"/>
+    
+    
+      <category term="WEB" scheme="https://lsr911.top/tags/web/"/>
+    
+      <category term="JAVA" scheme="https://lsr911.top/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>Myeclipse的快捷键使用</title>

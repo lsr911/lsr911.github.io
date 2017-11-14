@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[lucene排序问题]]></title>
+    <url>%2Flucene%E6%8E%92%E5%BA%8F%E9%97%AE%E9%A2%98.html</url>
+    <content type="text"><![CDATA[lucene排序filedprivate SortBean getXkSortBean() { SortBean sortBean = new SortBean(); sortBean.setSort(true); sortBean.setSortName(&quot;XKSXQ&quot; + AddDateDoc.SORT_PARAM); sortBean.setAscending(true); sortBean.setSortType(SortField.Type.LONG); return sortBean; } AddDateDoc public class AddDateDoc implements AddDocIntf { @Override public Document addDoc(String field, Object obj, Document doc) { if(StringUtils.equalsIgnoreCase(field.toUpperCase(), &quot;XKSXQ&quot;) || StringUtils.equalsIgnoreCase(field.toUpperCase(), &quot;CFSXQ&quot;)) { doc.add(new NumericDocValuesField(field.toUpperCase() + SORT_PARAM, ((Date)obj).getTime())); } doc.add(new LongField(field.toUpperCase(), ((Date)obj).getTime(), Field.Store.YES)); return doc; }} 其中 NumericDocValuesField 适合long类型排序，SortedDocValuesField为String类型排序，可以自定义组合排序构造方法。]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>WEB</tag>
+        <tag>JAVA</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Myeclipse的快捷键使用]]></title>
     <url>%2Feclipse%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE.html</url>
     <content type="text"><![CDATA[Myeclipse多行注释快捷键及其他快捷键注释12Ctrl+Shift+/ //多行注释Alt+Shift+J //模板注释 格式化1Ctrl+Shift+F //格式化文件Format Document。 编辑，查找123456789101112131415Ctrl+D //删除当前行。Ctrl+1 //快速修复(最经典的快捷键,就不用多说了)Ctrl+Alt+↓ //复制当前行到下一行(复制增加)Ctrl+Alt+↑ //复制当前行到上一行(复制增加)Alt+↓ //当前行和下面一行交互位置(特别实用,可以省去先剪切,再粘贴了)Alt+↑ //当前行和上面一行交互位置(同上)Ctrl+L //定位在某行 (对于程序超过100的人就有福音了)Ctrl+T //快速显示当前类的继承结构Ctrl+J //正向增量查找(按下Ctrl+J后,你所输入的每个字母编辑器都提供快速匹配定位到某个单词,如果没有,则在stutes line中显示没有)Ctrl+Shift+J //反向增量查找(和上条相同,只不过是从后往前查)Alt+Shift+R //重命名 (是我自己最爱用的一个了,尤其是变量和类的Rename,比手工方法能节省很多劳动力)Alt+Shift+M //抽取方法 (这是重构里面最常用的方法之一了,尤其是对一大堆泥团代码有用)Ctrl+F //用于查找你Editer中你想查找的变量，并可以修改名字。ctrl+shift+O //自动导入所有未导入的包ctrl+shift+M //一个类一个类的导入,action 点中dao(service)的方法再 CTRL+T可以直接到实现类 而不是接口]]></content>
