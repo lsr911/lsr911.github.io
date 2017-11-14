@@ -61,9 +61,9 @@ public Document addDoc(String field, Object obj, Document doc) {
       <category term="技术" scheme="https://lsr911.top/categories/techology/"/>
     
     
-      <category term="WEB" scheme="https://lsr911.top/tags/web/"/>
-    
       <category term="JAVA" scheme="https://lsr911.top/tags/java/"/>
+    
+      <category term="WEB" scheme="https://lsr911.top/tags/web/"/>
     
   </entry>
   
