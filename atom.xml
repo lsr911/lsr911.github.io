@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>平沙荡雁</title>
   <subtitle>心中若有桃花源，何处不是水云间</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://lsr911.top/"/>
-  <updated>2017-11-14T03:31:27.718Z</updated>
+  <updated>2017-11-14T06:11:34.003Z</updated>
   <id>https://lsr911.top/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="https://lsr911.top/lucene%E6%8E%92%E5%BA%8F%E9%97%AE%E9%A2%98.html"/>
     <id>https://lsr911.top/lucene排序问题.html</id>
     <published>2017-11-14T02:56:02.000Z</published>
-    <updated>2017-11-14T03:31:27.718Z</updated>
+    <updated>2017-11-14T06:11:34.003Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="lucene排序field"><a href="#lucene排序field" class="headerlink" title="lucene排序field"></a>lucene排序field</h2><pre><code>private SortBean getXkSortBean() {
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <h2="" id="lucene排序field"><a href="#lucene排序field" class="headerlink" title="lucene排序field"></a>lucene排序field<pre><code>private SortBean getXkSortBean() {
     SortBean sortBean = new SortBean();
     sortBean.setSort(true);
     sortBean.setSortName(&quot;XKSXQ&quot; + AddDateDoc.SORT_PARAM);
@@ -45,11 +45,16 @@ public Document addDoc(String field, Object obj, Document doc) {
 </code></pre><blockquote>
 <p>其中 NumericDocValuesField 适合long类型排序，SortedDocValuesField为String类型排序，可以自定义组合排序构造方法。</p>
 </blockquote>
-]]></content>
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;lucene排序field&quot;&gt;&lt;a href=&quot;#lucene排序field&quot; class=&quot;headerlink&quot; title=&quot;lucene排序field&quot;&gt;&lt;/a&gt;lucene排序field&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;private SortBean g
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css&quot;&gt;&lt;div class=&quot;.article-g
     
     </summary>
     
@@ -69,13 +74,18 @@ public Document addDoc(String field, Object obj, Document doc) {
     <published>2017-08-23T08:33:18.000Z</published>
     <updated>2017-08-23T08:45:05.791Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Myeclipse多行注释快捷键及其他快捷键"><a href="#Myeclipse多行注释快捷键及其他快捷键" class="headerlink" title="Myeclipse多行注释快捷键及其他快捷键"></a>Myeclipse多行注释快捷键及其他快捷键</h3><h4 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Ctrl+Shift+/  //多行注释</div><div class="line">Alt+Shift+J   //模板注释</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <h3="" id="Myeclipse多行注释快捷键及其他快捷键"><a href="#Myeclipse多行注释快捷键及其他快捷键" class="headerlink" title="Myeclipse多行注释快捷键及其他快捷键"></a>Myeclipse多行注释快捷键及其他快捷键<h4 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Ctrl+Shift+/  //多行注释</div><div class="line">Alt+Shift+J   //模板注释</div></pre></td></tr></table></figure>
 <h4 id="格式化"><a href="#格式化" class="headerlink" title="格式化"></a>格式化</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Ctrl+Shift+F  //格式化文件Format Document。</div></pre></td></tr></table></figure>
-<h4 id="编辑，查找"><a href="#编辑，查找" class="headerlink" title="编辑，查找"></a>编辑，查找</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">Ctrl+D	//删除当前行。</div><div class="line">Ctrl+1 	//快速修复(最经典的快捷键,就不用多说了)</div><div class="line">Ctrl+Alt+↓ 	//复制当前行到下一行(复制增加)</div><div class="line">Ctrl+Alt+↑ 	//复制当前行到上一行(复制增加)</div><div class="line">Alt+↓ 	//当前行和下面一行交互位置(特别实用,可以省去先剪切,再粘贴了)</div><div class="line">Alt+↑ 	//当前行和上面一行交互位置(同上)</div><div class="line">Ctrl+L 	//定位在某行 (对于程序超过100的人就有福音了)</div><div class="line">Ctrl+T 	//快速显示当前类的继承结构</div><div class="line">Ctrl+J 	//正向增量查找(按下Ctrl+J后,你所输入的每个字母编辑器都提供快速匹配定位到某个单词,如果没有,则在stutes line中显示没有)</div><div class="line">Ctrl+Shift+J 	//反向增量查找(和上条相同,只不过是从后往前查)</div><div class="line">Alt+Shift+R 	//重命名 (是我自己最爱用的一个了,尤其是变量和类的Rename,比手工方法能节省很多劳动力)</div><div class="line">Alt+Shift+M 	//抽取方法 (这是重构里面最常用的方法之一了,尤其是对一大堆泥团代码有用)</div><div class="line">Ctrl+F 	//用于查找你Editer中你想查找的变量，并可以修改名字。</div><div class="line">ctrl+<span class="built_in">shift</span>+O	//自动导入所有未导入的包</div><div class="line">ctrl+<span class="built_in">shift</span>+M	//一个类一个类的导入,action 点中dao(service)的方法再 CTRL+T可以直接到实现类 而不是接口</div></pre></td></tr></table></figure>]]></content>
+<h4 id="编辑，查找"><a href="#编辑，查找" class="headerlink" title="编辑，查找"></a>编辑，查找</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">Ctrl+D	//删除当前行。</div><div class="line">Ctrl+1 	//快速修复(最经典的快捷键,就不用多说了)</div><div class="line">Ctrl+Alt+↓ 	//复制当前行到下一行(复制增加)</div><div class="line">Ctrl+Alt+↑ 	//复制当前行到上一行(复制增加)</div><div class="line">Alt+↓ 	//当前行和下面一行交互位置(特别实用,可以省去先剪切,再粘贴了)</div><div class="line">Alt+↑ 	//当前行和上面一行交互位置(同上)</div><div class="line">Ctrl+L 	//定位在某行 (对于程序超过100的人就有福音了)</div><div class="line">Ctrl+T 	//快速显示当前类的继承结构</div><div class="line">Ctrl+J 	//正向增量查找(按下Ctrl+J后,你所输入的每个字母编辑器都提供快速匹配定位到某个单词,如果没有,则在stutes line中显示没有)</div><div class="line">Ctrl+Shift+J 	//反向增量查找(和上条相同,只不过是从后往前查)</div><div class="line">Alt+Shift+R 	//重命名 (是我自己最爱用的一个了,尤其是变量和类的Rename,比手工方法能节省很多劳动力)</div><div class="line">Alt+Shift+M 	//抽取方法 (这是重构里面最常用的方法之一了,尤其是对一大堆泥团代码有用)</div><div class="line">Ctrl+F 	//用于查找你Editer中你想查找的变量，并可以修改名字。</div><div class="line">ctrl+<span class="built_in">shift</span>+O	//自动导入所有未导入的包</div><div class="line">ctrl+<span class="built_in">shift</span>+M	//一个类一个类的导入,action 点中dao(service)的方法再 CTRL+T可以直接到实现类 而不是接口</div></pre></td></tr></table></figure></div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;Myeclipse多行注释快捷键及其他快捷键&quot;&gt;&lt;a href=&quot;#Myeclipse多行注释快捷键及其他快捷键&quot; class=&quot;headerlink&quot; title=&quot;Myeclipse多行注释快捷键及其他快捷键&quot;&gt;&lt;/a&gt;Myeclipse多行注释快捷键及其他快
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css&quot;&gt;&lt;div class=&quot;.article-g
     
     </summary>
     
@@ -93,13 +103,17 @@ public Document addDoc(String field, Object obj, Document doc) {
     <published>2017-07-22T09:52:42.000Z</published>
     <updated>2017-07-22T10:25:34.048Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/images/sh.jpeg" alt=""></p>
-]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <p=""><a href="/images/sh.jpeg" class="gallery-item"><img src="/images/sh.jpeg" alt=""></a><p></p>
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/sh.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css&quot;&gt;&lt;div class=&quot;.article-g
     
     </summary>
     
@@ -113,7 +127,7 @@ public Document addDoc(String field, Object obj, Document doc) {
     <published>2017-07-16T07:18:53.000Z</published>
     <updated>2017-08-03T17:20:54.098Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="《天龙八部》"><a href="#《天龙八部》" class="headerlink" title="《天龙八部》"></a>《天龙八部》</h2><h3 id="《天龙八部》的回目成五首词，具体如下："><a href="#《天龙八部》的回目成五首词，具体如下：" class="headerlink" title="《天龙八部》的回目成五首词，具体如下："></a>《天龙八部》的回目成五首词，具体如下：</h3><pre><code>少年游·金庸
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <h2="" id="《天龙八部》"><a href="#《天龙八部》" class="headerlink" title="《天龙八部》"></a>《天龙八部》<h3 id="《天龙八部》的回目成五首词，具体如下："><a href="#《天龙八部》的回目成五首词，具体如下：" class="headerlink" title="《天龙八部》的回目成五首词，具体如下："></a>《天龙八部》的回目成五首词，具体如下：</h3><pre><code>少年游·金庸
 
 青衫磊落险峰行，玉璧月华明。马疾香幽，崖高人远，微步毂纹生。
 谁家子弟谁家院，无悔计多情。虎啸龙吟，换巢鸾凤，剑气碧烟横。
@@ -148,11 +162,16 @@ public Document addDoc(String field, Object obj, Document doc) {
 出处：《江南春》【宋】寇准
 
 波渺渺，柳依依，孤村芳颤远，斜日杏花飞。江南春尽离肠远，蘋满汀洲人未归。
-</code></pre>]]></content>
+</code></pre></div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;《天龙八部》&quot;&gt;&lt;a href=&quot;#《天龙八部》&quot; class=&quot;headerlink&quot; title=&quot;《天龙八部》&quot;&gt;&lt;/a&gt;《天龙八部》&lt;/h2&gt;&lt;h3 id=&quot;《天龙八部》的回目成五首词，具体如下：&quot;&gt;&lt;a href=&quot;#《天龙八部》的回目成五首词，具体如下
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css&quot;&gt;&lt;div class=&quot;.article-g
     
     </summary>
     
@@ -172,13 +191,17 @@ public Document addDoc(String field, Object obj, Document doc) {
     <published>2017-07-16T03:33:38.000Z</published>
     <updated>2017-07-16T07:24:45.494Z</updated>
     
-    <content type="html"><![CDATA[<p>今天很开心！</p>
-]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <p="">今天很开心！<p></p>
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;今天很开心！&lt;/p&gt;
-
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css&quot;&gt;&lt;div class=&quot;.article-g
     
     </summary>
     
@@ -196,7 +219,7 @@ public Document addDoc(String field, Object obj, Document doc) {
     <published>2017-07-15T14:08:15.699Z</published>
     <updated>2017-07-20T08:28:20.155Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <p="">Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<p></p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -209,11 +232,16 @@ public Document addDoc(String field, Object obj, Document doc) {
 <h3 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server --debug</div></pre></td></tr></table></figure>
 <h3 id="Insert-image"><a href="#Insert-image" class="headerlink" title="Insert image"></a>Insert image</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![你想输入的替代文字](xxxx/图片名.jpg)</div></pre></td></tr></table></figure>
 <p><strong>注意：</strong>xxxx是这个md文件的名字，也是同名文件夹的名字，你想引入的图片就只需要放入xxxx这个文件夹内就好了，很像引用相对路径。</p>
-]]></content>
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css&quot;&gt;&lt;div class=&quot;.article-g
     
     </summary>
     
