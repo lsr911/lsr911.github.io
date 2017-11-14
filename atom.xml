@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>平沙荡雁</title>
   <subtitle>心中若有桃花源，何处不是水云间</subtitle>
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="lsr911.top/atom.xml" rel="self"/>
   
-  <link href="https://lsr911.top/blog/"/>
+  <link href="https://lsr911.top/"/>
   <updated>2017-11-14T06:11:34.003Z</updated>
-  <id>https://lsr911.top/blog/</id>
+  <id>https://lsr911.top/</id>
   
   <author>
     <name>lsr</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>lucene排序问题</title>
-    <link href="https://lsr911.top/blog/lucene%E6%8E%92%E5%BA%8F%E9%97%AE%E9%A2%98.html"/>
-    <id>https://lsr911.top/blog/lucene排序问题.html</id>
+    <link href="https://lsr911.top/lucene%E6%8E%92%E5%BA%8F%E9%97%AE%E9%A2%98.html"/>
+    <id>https://lsr911.top/lucene排序问题.html</id>
     <published>2017-11-14T02:56:02.000Z</published>
     <updated>2017-11-14T06:11:34.003Z</updated>
     
@@ -58,19 +58,19 @@ public Document addDoc(String field, Object obj, Document doc) {
     
     </summary>
     
-      <category term="技术" scheme="https://lsr911.top/blog/categories/techology/"/>
+      <category term="技术" scheme="https://lsr911.top/categories/techology/"/>
     
     
-      <category term="JAVA" scheme="https://lsr911.top/blog/tags/java/"/>
+      <category term="WEB" scheme="https://lsr911.top/tags/web/"/>
     
-      <category term="WEB" scheme="https://lsr911.top/blog/tags/web/"/>
+      <category term="JAVA" scheme="https://lsr911.top/tags/java/"/>
     
   </entry>
   
   <entry>
     <title>Myeclipse的快捷键使用</title>
-    <link href="https://lsr911.top/blog/eclipse%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE.html"/>
-    <id>https://lsr911.top/blog/eclipse的快捷键.html</id>
+    <link href="https://lsr911.top/eclipse%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE.html"/>
+    <id>https://lsr911.top/eclipse的快捷键.html</id>
     <published>2017-08-23T08:33:18.000Z</published>
     <updated>2017-08-23T08:45:05.791Z</updated>
     
@@ -89,17 +89,17 @@ public Document addDoc(String field, Object obj, Document doc) {
     
     </summary>
     
-      <category term="技术" scheme="https://lsr911.top/blog/categories/techology/"/>
+      <category term="技术" scheme="https://lsr911.top/categories/techology/"/>
     
     
-      <category term="JAVA" scheme="https://lsr911.top/blog/tags/java/"/>
+      <category term="JAVA" scheme="https://lsr911.top/tags/java/"/>
     
   </entry>
   
   <entry>
     <title>photo</title>
-    <link href="https://lsr911.top/blog/photo.html"/>
-    <id>https://lsr911.top/blog/photo.html</id>
+    <link href="https://lsr911.top/photo.html"/>
+    <id>https://lsr911.top/photo.html</id>
     <published>2017-07-22T09:52:42.000Z</published>
     <updated>2017-07-22T10:25:34.048Z</updated>
     
@@ -122,8 +122,8 @@ public Document addDoc(String field, Object obj, Document doc) {
   
   <entry>
     <title>金庸小说中的诗词</title>
-    <link href="https://lsr911.top/blog/jingyong.html"/>
-    <id>https://lsr911.top/blog/jingyong.html</id>
+    <link href="https://lsr911.top/jingyong.html"/>
+    <id>https://lsr911.top/jingyong.html</id>
     <published>2017-07-16T07:18:53.000Z</published>
     <updated>2017-08-03T17:20:54.098Z</updated>
     
@@ -175,19 +175,19 @@ public Document addDoc(String field, Object obj, Document doc) {
     
     </summary>
     
-      <category term="阅读" scheme="https://lsr911.top/blog/categories/read/"/>
+      <category term="阅读" scheme="https://lsr911.top/categories/read/"/>
     
     
-      <category term="武侠" scheme="https://lsr911.top/blog/tags/wuxia/"/>
+      <category term="武侠" scheme="https://lsr911.top/tags/wuxia/"/>
     
-      <category term="文艺" scheme="https://lsr911.top/blog/tags/literature/"/>
+      <category term="文艺" scheme="https://lsr911.top/tags/literature/"/>
     
   </entry>
   
   <entry>
     <title>测试用例</title>
-    <link href="https://lsr911.top/blog/Test.html"/>
-    <id>https://lsr911.top/blog/Test.html</id>
+    <link href="https://lsr911.top/Test.html"/>
+    <id>https://lsr911.top/Test.html</id>
     <published>2017-07-16T03:33:38.000Z</published>
     <updated>2017-07-16T07:24:45.494Z</updated>
     
@@ -205,17 +205,17 @@ public Document addDoc(String field, Object obj, Document doc) {
     
     </summary>
     
-      <category term="技术" scheme="https://lsr911.top/blog/categories/techology/"/>
+      <category term="技术" scheme="https://lsr911.top/categories/techology/"/>
     
     
-      <category term="WEB" scheme="https://lsr911.top/blog/tags/web/"/>
+      <category term="WEB" scheme="https://lsr911.top/tags/web/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://lsr911.top/blog/hello-world.html"/>
-    <id>https://lsr911.top/blog/hello-world.html</id>
+    <link href="https://lsr911.top/hello-world.html"/>
+    <id>https://lsr911.top/hello-world.html</id>
     <published>2017-07-15T14:08:15.699Z</published>
     <updated>2017-07-20T08:28:20.155Z</updated>
     
