@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>平沙荡雁</title>
   <subtitle>心中若有桃花源，何处不是水云间</subtitle>
-  <link href="lsr911.top/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
   <link href="https://lsr911.top/"/>
   <updated>2017-11-14T06:11:34.003Z</updated>
@@ -61,9 +61,9 @@ public Document addDoc(String field, Object obj, Document doc) {
       <category term="技术" scheme="https://lsr911.top/categories/techology/"/>
     
     
-      <category term="JAVA" scheme="https://lsr911.top/tags/java/"/>
-    
       <category term="WEB" scheme="https://lsr911.top/tags/web/"/>
+    
+      <category term="JAVA" scheme="https://lsr911.top/tags/java/"/>
     
   </entry>
   
