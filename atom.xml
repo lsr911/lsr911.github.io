@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lsr911.top/"/>
-  <updated>2017-11-14T03:25:08.755Z</updated>
+  <updated>2017-11-14T03:31:27.718Z</updated>
   <id>https://lsr911.top/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="https://lsr911.top/lucene%E6%8E%92%E5%BA%8F%E9%97%AE%E9%A2%98.html"/>
     <id>https://lsr911.top/lucene排序问题.html</id>
     <published>2017-11-14T02:56:02.000Z</published>
-    <updated>2017-11-14T03:25:08.755Z</updated>
+    <updated>2017-11-14T03:31:27.718Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="lucene排序filed"><a href="#lucene排序filed" class="headerlink" title="lucene排序filed"></a>lucene排序filed</h2><pre><code>private SortBean getXkSortBean() {
+    <content type="html"><![CDATA[<h2 id="lucene排序field"><a href="#lucene排序field" class="headerlink" title="lucene排序field"></a>lucene排序field</h2><pre><code>private SortBean getXkSortBean() {
     SortBean sortBean = new SortBean();
     sortBean.setSort(true);
     sortBean.setSortName(&quot;XKSXQ&quot; + AddDateDoc.SORT_PARAM);
@@ -49,7 +49,7 @@ public Document addDoc(String field, Object obj, Document doc) {
     
     <summary type="html">
     
-      &lt;h2 id=&quot;lucene排序filed&quot;&gt;&lt;a href=&quot;#lucene排序filed&quot; class=&quot;headerlink&quot; title=&quot;lucene排序filed&quot;&gt;&lt;/a&gt;lucene排序filed&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;private SortBean g
+      &lt;h2 id=&quot;lucene排序field&quot;&gt;&lt;a href=&quot;#lucene排序field&quot; class=&quot;headerlink&quot; title=&quot;lucene排序field&quot;&gt;&lt;/a&gt;lucene排序field&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;private SortBean g
     
     </summary>
     
